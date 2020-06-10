@@ -6,7 +6,7 @@ pipeline {
   }  
   agent any  
   stages {
-      stage('Cloning Git') {
+      stage('Cloning Git with Nginx') {
       steps {
         git 'https://github.com/regibayoan/dockerfile-repo.git'
       }
