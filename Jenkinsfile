@@ -11,7 +11,7 @@ pipeline {
         git 'https://github.com/regibayoan/dockerfile-repo.git'
       }
     }
-    stage('Building image') {
+    stage('Building image nginx') {
       steps{
         script {
           dockerImage = docker.build registry + ":$BUILD_NUMBER"
