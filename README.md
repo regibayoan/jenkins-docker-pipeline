@@ -4,5 +4,5 @@
 2. Installed Docker
 3. Run Jenkins as a Docker container
 4. Connect to Github repo with PollSCM
-5. Jenkinsfile builds a Docker image of an application
+5. Jenkinsfile clones an application from a Github project and builds a Docker image
 6. Pushes Docker image to Docker Hub
